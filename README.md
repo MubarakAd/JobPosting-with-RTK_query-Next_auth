@@ -40,4 +40,12 @@ This project is a job posting application built with Next.js, Tailwind CSS, and 
     ```bash
     npm run dev
 4. Open http://localhost:3000 with your browser to see the result.
-<video controls src="Create Next App - Google Chrome 2024-08-07 15-51-58.mp4" title="Title"></video>
+# Demo
+## Card Page
+https://github.com/user-attachments/assets/1f1e6ae7-8523-4e8d-988b-27808d20a5ce
+## description Page
+https://github.com/user-attachments/assets/bb06e30f-8ef2-479c-8673-9053d6f1e510
+
+
+
+
