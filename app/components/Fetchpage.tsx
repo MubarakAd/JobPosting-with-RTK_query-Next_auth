@@ -8,8 +8,6 @@ import { useGetJobPostByIdQuery } from "../service/jobPost";
 const FetchPage =  ({ id }: { id: string }) => {
   // Fetch data using the ID
   const { data, error, isLoading } = useGetJobPostByIdQuery(id);
-  console.log(data, 'is define')
-
 
   return (
    
@@ -17,7 +15,7 @@ const FetchPage =  ({ id }: { id: string }) => {
       <div className='w-3/4 mr-4 p-4  rounded-2xl'>
         <div className='my-5'>
           <h2 className='mt-10 mb-2 font-san font-bold text-lg'>Description</h2>
-          <p className='text-black w-5/6 font-serif text-sm'>{data?.data?.description || 'No description available'}</p>
+          <p className='text-black w-5/6 font-serif text-sm'>{data?.data?.description }</p>
         </div>
 
         <div>
@@ -37,7 +35,7 @@ const FetchPage =  ({ id }: { id: string }) => {
               <p className='text-sm'>Young (18-25 Years old) Female Social Media Manager</p>
             </li>
             <li className='my-1.5'>
-              <p className='w-4/5 text-sm'>{data?.data?.idealCandidate || 'No ideal candidate information available'}</p>
+              <p className='w-4/5 text-sm'>{data?.data?.idealCandidate }</p>
             </li>
           </ul>
         </div>

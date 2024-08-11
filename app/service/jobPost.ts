@@ -13,6 +13,7 @@ export const JobPostApi = createApi({
     getJobPostById: builder.query<JobPostById, string>({
       query: (id) => `/opportunities/${id}`,
   }),
+    
 })
 })
 
