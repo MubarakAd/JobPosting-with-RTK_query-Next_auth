@@ -33,7 +33,7 @@ This project is a job posting application built with Next.js, Tailwind CSS, and 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/MubarakAd/JobPosting-with_RTK_Query.git
+   git clone https://github.com/MubarakAd/JobPosting-with_RTK_query-Next_auth.git
    cd job-posting-card
 
 2. **Install dependencies:**
